@@ -1,30 +1,26 @@
-# Defining Methods
+# Configuration
 
-Methods allow you to smoothly display code examples in different languages.
+Configuration for Meshviewer
 
 {% method %}
-## My first method
+## First config
 
-My first method exposes how to print a message in JavaScript and Go.
+### dataPath (string/array)
 
-{% sample lang="js" %}
+{% sample lang="json" %}
 Here is how to print a message to `stdout` using JavaScript.
 
-```js
-console.log('My first method');
+Sinple data source
+```json
+dataPath : "https://regensburg.freifunk.net/data/"
 ```
 
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
-
-```go
-fmt.Println("My first method")
+Multiple data sources
+```json
+dataPath : [
+    "https://regensburg.freifunk.net/data/", 
+    "https://nominatim.openstreetmap.org/reverse"
+]
 ```
 
-{% common %}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
-```
 {% endmethod %}

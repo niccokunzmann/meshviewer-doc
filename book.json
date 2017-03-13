@@ -1,8 +1,10 @@
 {
-    "plugins": [ "theme-api" ],
+    "plugins": [ 
+        "theme-api", 
+        "anchors"
+    ],
     "pluginsConfig": {
-        "theme-api": {          
-          "theme": "dark",
+        "theme-api": {
           "split": true,
             "languages": [
                 {

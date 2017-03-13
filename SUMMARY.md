@@ -2,10 +2,10 @@
 
 ## Documentation
 
-* [Overview](overview.md)
+* [Overview](README.md)
+* [About](overview.md)
 * [Install](install.md)
 * Development
-* [About](README.md)
 
 ## Configuration
 

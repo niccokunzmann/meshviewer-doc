@@ -198,6 +198,8 @@ In contrast to `nodeInfos` there is no template substitution in  `href`, `image`
 
 Examples for `globalInfos` using Grafana server rendering:
 {% sample lang="json" %}
+Examples for `globalInfos` using Grafana server rendering:
+
 ```json
 "globalInfos": [
   { 

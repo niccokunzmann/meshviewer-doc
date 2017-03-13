@@ -26,6 +26,7 @@ yarn global add grunt-cli
 ## Adjsut config and style
 
 1. [Change configuration to your community](/config_json.md)
+2. Edit files in `scss/custom/`. Additional information in file comments and under [development](/development.md).
 
 ## Building
 

@@ -1,7 +1,8 @@
 {
     "plugins": [ "theme-api" ],
     "pluginsConfig": {
-        "theme-api": {
+        "theme-api": {          
+          "theme": "dark",
             "languages": [
                 {
                     "lang": "json",

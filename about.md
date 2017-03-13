@@ -10,7 +10,6 @@ The main goal is still to be meshviewer for [Freifunk Regensburg](https://regens
     - [#meshviewer](irc://irc.hackint.org/meshviewer) (development-channel)
 - Feel free to open an [issue](https://github.com/ffrgb/meshviewer/issues/new) for a problem or an idea.
 
-
 ## Sponsoring / Supporting
 - [BrowserStack](https://www.browserstack.com/) for providing an awesome testing service for hundreds of browsers
 - [Travis CI](https://travis-ci.org/) for building meshviewer on every push and pull request

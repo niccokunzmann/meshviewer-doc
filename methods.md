@@ -1,10 +1,6 @@
 # Configuration
 
-Configuration for Meshviewer
-
 {% method %}
-## First config
-
 ### dataPath (string/array)
 `dataPath` can be either a string containing the address of a Nodes.json v2 compatible backend (e.g. ffmap backend) or an array containing multiple addresses.
 Don't forget the trailing slash!
@@ -25,3 +21,27 @@ dataPath : [
 ]
 ```
 {% endmethod %}
+
+
+{% method %}
+### siteName (string)
+Change this to match your communities name. It will be used as HTML `<title>` and header.
+
+{% sample lang="json" %}
+```json
+"siteName": "Freifunk Regensburg"
+```
+{% endmethod %}
+
+
+{% method %}
+### maxAge (string)
+Change this to match your communities name. It will be used as HTML `<title>` and header.
+
+{% sample lang="json" %}
+```json
+"siteName": "Freifunk Regensburg"
+```
+{% endmethod %}
+
+

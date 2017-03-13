@@ -1,9 +1,13 @@
 # Summary
 
-## Overview
+## Documentation
 
-* [My Awesome API](README.md)
+* [Overview](overview.md)
+* [Install](install.md)
+* Development
+* [About](README.md)
 
-## Methods
+## Configuration
 
-* [Defining Methods](methods.md)
+* [config.json](methods.md)
+

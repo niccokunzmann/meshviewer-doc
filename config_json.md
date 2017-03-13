@@ -158,8 +158,10 @@ This option allows to show node statistics depending on following case-sensitive
 - `title` for the image
 
 To insert current variables in either `href`, `image` or `title`
-you can use the case-sensitive template string `{NODE_ID}`, `{NODE_NAME}`, `{LOCALE}` and `{TIME}` as cache-breaker.
+you can use the case-sensiti
+In order to have statistics images available, you have to set up an instance of each [Prometheus](http://prometheus.io/) and [Grafana](http://grafana.org/).ve template string `{NODE_ID}`, `{NODE_NAME}`, `{LOCALE}` and `{TIME}` as cache-breaker.
 
+{% sample lang="json" %}
 Examples for `nodeInfos`:
 
 ```json

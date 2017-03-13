@@ -36,7 +36,8 @@ Change this to match your communities name. It will be used as HTML `<title>` an
 
 {% method %}
 ### maxAge (string)
-Change this to match your communities name. It will be used as HTML `<title>` and header.
+Nodes being online for less than maxAge days are considered "new". Likewise,
+nodes being offline for more than than maxAge days are considered "lost".
 
 {% sample lang="json" %}
 ```json
@@ -45,41 +46,36 @@ Change this to match your communities name. It will be used as HTML `<title>` an
 {% endmethod %}
 
 
-
-
-### dataPath (string/array)
-
-`dataPath` can be either a string containing the address of a Nodes.json v2 compatible backend (e.g. ffmap backend) or an array containing multiple addresses.
-Don't forget the trailing slash!
-Also, proxying the data through a webserver will allow GZip and thus will greatly reduce bandwidth consumption.
-It may help with firewall problems too.
-
-### siteName (string)
-
-Change this to match your communities' name. It will be used in various places.
-
-### maxAge (integer)
-
-Nodes being online for less than maxAge days are considered "new". Likewise,
-nodes being offline for more than than maxAge days are considered "lost".
-
+{% method %}
 ### maxAgeAlert (integer)
 
 Nodes being offline for more than than maxAge days are considered "lost".
 Lost will be splitted in alert and lost.
+{% endmethod %}
 
+
+{% method %}
 ### nodeZoom (integer)
 
 Max level to be applied by clicking a node or opening a node. Value `18` is a good default, so nearby buildings and streets should be visible.
+{% endmethod %}
 
+
+{% method %}
 ### labelZoom (integer)
 
 Min. level for node labels shown on the map. Labels aren't shown in first zoom levels and need performance.
+{% endmethod %}
 
+
+{% method %}
 ### clientZoom (integer)
 
 Min. level to set starting layer for client dots on map.
+{% endmethod %}
 
+
+{% method %}
 ### nodeInfobox
 
 #### contact (bool, optional)
@@ -89,7 +85,10 @@ Setting this to `false` will hide contact information for nodes.
 #### hardwareUsage (bool, optional)
 
 Setting this to `false` will hide bars of memory usage and load avg for nodes.
+{% endmethod %}
 
+
+{% method %}
 ### mapLayers (List)
 
 A list of objects describing map layers. Each object has at least `name`, `url` and `config` properties. [Example layers and configuration](http://leaflet-extras.github.io/leaflet-providers/preview/) (map against config.json).
@@ -120,11 +119,15 @@ Start a time range to put this mapLayer on first position.
 #### end (integer, optional)
 
 End a time range for first map. Stops sort this mapLayer.
+{% endmethod %}
 
+
+{% method %}
 ### fixedCenter (array[array, array])
 
 Choose a rectangle that must be displayed on the map. Set 2 Locations and everything between will displayed.
 
+{% sample lang="json" %}
 Examples for `fixedCenter`:
 
 ```json
@@ -140,7 +143,10 @@ Examples for `fixedCenter`:
   ]
 ],
 ```
+{% endmethod %}
 
+
+{% method %}
 ### nodeInfos (array, optional)
 
 This option allows to show node statistics depending on following case-sensitive parameters:
@@ -174,7 +180,10 @@ Examples for `nodeInfos`:
 ```
 
 In order to have statistics images available, you have to set up an instance of each [Prometheus](http://prometheus.io/) and [Grafana](http://grafana.org/).
+{% endmethod %}
 
+
+{% method %}
 ### globalInfos (array, optional)
 
 This option allows to show global statistics on statistics page depending on following case-sensitive parameters:
@@ -188,7 +197,7 @@ This option allows to show global statistics on statistics page depending on fol
 In contrast to `nodeInfos` there is no template substitution in  `href`, `image` or `title`.
 
 Examples for `globalInfos` using Grafana server rendering:
-
+{% sample lang="json" %}
 ```json
 "globalInfos": [
   { 
@@ -199,7 +208,10 @@ Examples for `globalInfos` using Grafana server rendering:
   }
 ]
 ```
+{% endmethod %}
 
+
+{% method %}
 ### linkInfos (array, optional)
 
 This option allows to show link statistics depending on the following case-sensitive parameters:
@@ -213,6 +225,7 @@ This option allows to show link statistics depending on the following case-sensi
 To insert the source or target variable in either `href`, `image` or `title`
 you can use the case-sensitive template strings `{SOURCE_ID}`, `{TARGET_ID}`, `{SOURCE_NAME}`, `{TARGET_NAME}`, `{LOCALE}` and `{TIME}` as cache-breaker.
 
+{% sample lang="json" %}
 ```json
 "linkInfos": [
   {
@@ -223,7 +236,10 @@ you can use the case-sensitive template strings `{SOURCE_ID}`, `{TARGET_ID}`, `{
   }
 ]
 ```
+{% endmethod %}
 
+
+{% method %}
 ### siteNames (array, optional)
 
 In this array name definitions for site statistics and node info can be saved. This requires one object for each site code. This object must contain:
@@ -231,8 +247,9 @@ In this array name definitions for site statistics and node info can be saved. T
 - `site` the site code
 - `name` the defined written name for this site code
 
-If neither `siteNames` nor `showSites` are set, site statistics and node info won't be displayed
+If neither `siteNames` nor `showSites` are set, site statistics and node info won't be displayed.
 
+{% sample lang="json" %}
 Example for `siteNames`:
 
 ```json
@@ -245,14 +262,17 @@ Example for `siteNames`:
       "site": "ffrgb-dummy",
       "name": "Regensburg Test"
     }
-  ],
+  ]
 ```
-    
-    
+{% endmethod %}
+
+
+{% method %}
 ### supportedLocale (array)
 
 Add supported locale (with matching language file in locales/*.json) and it will be matched against the browser language setting. Fallback is the first language in the array.
 
+{% sample lang="json" %}
 Example for `supportedLocale`:
 
 ```json
@@ -262,9 +282,13 @@ Example for `supportedLocale`:
   "fr"
 ]
 ```
-    
+{% endmethod %}
+
+
+{% method %}
 ### cacheBreaker (string)
 
 Will be replaced in every build to avoid missing or outdated language strings, because language.json isn't up to date.
 
 _Fixed value (y0z)._
+{% endmethod %}

@@ -6,6 +6,13 @@
 
 A web-app to visualize nodes and links on a map for Freifunk open mesh network.
 
+
+## Demo
+
+Embedded: https://regensburg.freifunk.net/netz/karte/  
+Standalone: https://regensburg.freifunk.net/meshviewer/
+
+
 ## Known instances
 
 | Community               | Instance                                  | Repo GitHub                                                                             |

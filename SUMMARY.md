@@ -3,11 +3,11 @@
 ## Documentation
 
 * [Overview](README.md)
-* [About](overview.md)
-* [Install](install.md)
-* Development
+* [About](about.md)
+* [Build/Install](build_install.md)
+* [Development](development.md)
 
 ## Configuration
 
-* [config.json](methods.md)
+* [config.json](config_json.md)
 

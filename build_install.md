@@ -1,4 +1,4 @@
-# Install
+# Build/Install
 
 ## Dependencies
 
@@ -23,9 +23,9 @@ yarn
 yarn global add grunt-cli
 ```
 
-## Adjust configuration
+## Adjsut config and style
 
-[Change config.json to your community information.](/config_json.md)
+1. [Change configuration to your community](/config_json.md)
 
 ## Building
 

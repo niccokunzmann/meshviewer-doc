@@ -196,7 +196,6 @@ This option allows to show global statistics on statistics page depending on fol
 
 In contrast to `nodeInfos` there is no template substitution in  `href`, `image` or `title`.
 
-Examples for `globalInfos` using Grafana server rendering:
 {% sample lang="json" %}
 Examples for `globalInfos` using Grafana server rendering:
 

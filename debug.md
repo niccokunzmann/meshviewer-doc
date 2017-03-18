@@ -9,6 +9,8 @@ We provide a brnach with sentry https://sentry.io/ and it will send errors repor
 
 You can use the Saas version or host it yourself. Or ask us for an instance, we are happy for more feedback from different instances.
 
+You might need to rebase the debug branch to have your settings.
+
 ## Find errors without sentry
 
 ### Browsersync

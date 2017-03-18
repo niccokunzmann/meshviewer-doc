@@ -6,6 +6,7 @@
 * [About](about.md)
 * [Build/Install](build_install.md)
 * [Development](development.md)
+* [Debug](debug.md)
 
 ## Configuration
 

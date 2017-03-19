@@ -12,6 +12,7 @@ Ask us friendly and you can use our layers.
 | Recommend | yes |
 | Style | simple & night |
 | HTTP/2 | yes |
+| Retina tiles | yes |
 | Tracking | no |
 
 {% sample lang="json" %}

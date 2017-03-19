@@ -5,7 +5,7 @@ List of map layers for your meshviewer.
 {% method %}
 ### Freifunk Regensburg Layer
 
-Ask us friendly and you can use our layers.
+Ask us friendly and you can use our layers. Compared to Standard OSM our tiles are 30-50% smaller means less traffic.
 
 | Key | Value |
 | :--- | :--- |

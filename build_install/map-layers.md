@@ -1,11 +1,13 @@
 # Map layers
 
-List of map layers for your meshviewer:
+List of map layers for your meshviewer.
 
+{% method %}
 ### Freifunk Regensburg Layer
 
 Ask frendly and you can use our layers.
-{% method %}
+
+{% sample lang="json" %}
 ```json
   {
       "name": "Freifunk Regensburg",
@@ -21,8 +23,10 @@ Ask frendly and you can use our layers.
 ```
 {% endmethod %}
 
+{% method %}
 #### Night style
 
+{% sample lang="json" %}
 ```json
 
     {
@@ -39,8 +43,12 @@ Ask frendly and you can use our layers.
       }
     }
 ```
+{% endmethod %}
+
+{% method %}
 ### OpenStreetMap FR - Hot style
 
+{% sample lang="json" %}
 ```json
 
     {
@@ -52,9 +60,12 @@ Ask frendly and you can use our layers.
       }
     }
 ```
+{% endmethod %}
 
+{% method %}
 ### HERE Map
 
+{% sample lang="json" %}
 Requries API token - free account with limited views available.
 
 ```json
@@ -70,9 +81,12 @@ Requries API token - free account with limited views available.
       }
     }
 ```
+{% endmethod %}
 
+{% method %}
 #### Satellite hybrid View
 
+{% sample lang="json" %}
 ```json
     {
       "name": "HERE.hybridDay",
@@ -86,9 +100,12 @@ Requries API token - free account with limited views available.
       }
     }
 ```
+{% endmethod %}
 
+{% method %}
 ### Satellite map
 
+{% sample lang="json" %}
 ```json
 
     {
@@ -100,4 +117,4 @@ Requries API token - free account with limited views available.
       }
     },
     ```
-
+{% endmethod %}

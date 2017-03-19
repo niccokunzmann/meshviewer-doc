@@ -5,7 +5,7 @@ List of map layers for your meshviewer:
 ### Freifunk Regensburg Layer
 
 Ask frendly and you can use our layers.
-
+{% method %}
 ```json
   {
       "name": "Freifunk Regensburg",
@@ -19,6 +19,7 @@ Ask frendly and you can use our layers.
       }
     },
 ```
+{% endmethod %}
 
 #### Night style
 

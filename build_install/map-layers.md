@@ -5,7 +5,14 @@ List of map layers for your meshviewer.
 {% method %}
 ### Freifunk Regensburg Layer
 
-Ask frendly and you can use our layers.
+Ask us friendly and you can use our layers.
+
+| Key | Value |
+| :--- | :--- |
+| Recommend | yes |
+| Style | simple & night |
+| HTTP/2 | yes |
+| Tracking | no |
 
 {% sample lang="json" %}
 ```json
@@ -21,9 +28,7 @@ Ask frendly and you can use our layers.
       }
     },
 ```
-{% endmethod %}
 
-{% method %}
 #### Night style
 
 {% sample lang="json" %}

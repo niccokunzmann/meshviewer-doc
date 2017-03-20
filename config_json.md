@@ -108,6 +108,7 @@ Setting this to `false` will hide contact information for nodes.
 ```
 {% endmethod %}
 
+
 {% method %}
 #### hardwareUsage (bool, optional)
 
@@ -120,13 +121,13 @@ Setting this to `false` will hide bars of memory usage and load avg for nodes.
 {% endmethod %}
 
 
-{% method %}
 ### mapLayers (List)
 
 A list of objects describing map layers. Each object has at least `name`, `url` and `config` properties. [Example layers and configuration](http://leaflet-extras.github.io/leaflet-providers/preview/) (map against config.json).
 
 [Layer provider list for meshviewer](/map-layers.md)
 
+{% method %}
 #### mode (string, optional)
 
 Allows to load a additional style for a night mode or similar use case. Possible are inline style or link. 
@@ -135,6 +136,11 @@ Inline avoids re-rendering and maybe issues with label-layer update. Important a
 _Default is night.css inline in index.html_
 
 {% sample lang="json" %}
+```json
+"mode": "night"
+```
+
+`html/index.html`
 ```html
  <link rel="stylesheet" class="css-mode mode-name" media="not" href="mode-name.css">
 ```
@@ -146,15 +152,29 @@ or
    <inline src="mode-name.css" />
 </style>
 ```
-{% common %}
+{% endmethod %}
 
+
+{% method %}
 #### start (integer, optional)
 
 Start a time range to put this mapLayer on first position.
+{% sample lang="json" %}
+```json
+"start": 19
+```
+{% endmethod %}
 
+
+{% method %}
 #### end (integer, optional)
 
 End a time range for first map. Stops sort this mapLayer.
+
+{% sample lang="json" %}
+```json
+"end": 7
+```
 {% endmethod %}
 
 

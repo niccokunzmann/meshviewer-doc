@@ -125,6 +125,8 @@ Setting this to `false` will hide bars of memory usage and load avg for nodes.
 
 A list of objects describing map layers. Each object has at least `name`, `url` and `config` properties. [Example layers and configuration](http://leaflet-extras.github.io/leaflet-providers/preview/) (map against config.json).
 
+[Layer provider list for meshviewer](/map-layers.md)
+
 #### mode (string, optional)
 
 Allows to load a additional style for a night mode or similar use case. Possible are inline style or link. 
@@ -132,6 +134,7 @@ Inline avoids re-rendering and maybe issues with label-layer update. Important a
 
 _Default is night.css inline in index.html_
 
+{% sample lang="json" %}
 ```html
  <link rel="stylesheet" class="css-mode mode-name" media="not" href="mode-name.css">
 ```
@@ -143,6 +146,7 @@ or
    <inline src="mode-name.css" />
 </style>
 ```
+{% endsample %}
 
 #### start (integer, optional)
 

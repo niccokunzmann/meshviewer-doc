@@ -14,6 +14,9 @@
                     "default": true
                 }
             ]
+        },
+        "sitemap": {
+            "hostname": "https://meshviewer.gitbooks.io"
         }
     }
 }

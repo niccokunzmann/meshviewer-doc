@@ -1,7 +1,8 @@
 {
     "plugins": [ 
         "theme-api", 
-        "anchors"
+        "anchors",
+        "sitemap"
     ],
     "pluginsConfig": {
         "theme-api": {

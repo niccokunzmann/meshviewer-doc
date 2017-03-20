@@ -54,6 +54,14 @@ Ask us friendly and you can use our layers. Compared to Standard OSM our tiles a
 {% method %}
 ### OpenStreetMap FR - Hot style
 
+| Key | Value |
+| :--- | :--- |
+| Recommend | yes |
+| Style | hot & others |
+| HTTP/2 | no |
+| Retina tiles | no |
+| Tracking | unknown |
+
 {% sample lang="json" %}
 ```json
 
@@ -70,6 +78,14 @@ Ask us friendly and you can use our layers. Compared to Standard OSM our tiles a
 
 {% method %}
 ### HERE Map
+
+| Key | Value |
+| :--- | :--- |
+| Recommend | no - limit is to low, nice satellite view available |
+| Style | normal & satellite |
+| HTTP/2 | no |
+| Retina tiles | no |
+| Tracking | unknown |
 
 {% sample lang="json" %}
 Requries API token - free account with limited views available.
@@ -110,6 +126,16 @@ Requries API token - free account with limited views available.
 
 {% method %}
 ### Satellite map
+
+| Key | Value |
+| :--- | :--- |
+| Recommend | no - slow |
+| Style | normal & satellite |
+| HTTP/2 | no |
+| Retina tiles | no |
+| Tracking | unknown |
+
+
 
 {% sample lang="json" %}
 ```json

@@ -146,7 +146,7 @@ or
    <inline src="mode-name.css" />
 </style>
 ```
-{% endsample %}
+{% common %}
 
 #### start (integer, optional)
 

@@ -41,7 +41,7 @@ nodes being offline for more than than maxAge days are considered "lost".
 
 {% sample lang="json" %}
 ```json
-"siteName": "Freifunk Regensburg"
+"maxAge": 14
 ```
 {% endmethod %}
 
@@ -51,6 +51,11 @@ nodes being offline for more than than maxAge days are considered "lost".
 
 Nodes being offline for more than than maxAge days are considered "lost".
 Lost will be splitted in alert and lost.
+
+{% sample lang="json" %}
+```json
+"maxAgeAlert": 3
+```
 {% endmethod %}
 
 
@@ -58,13 +63,23 @@ Lost will be splitted in alert and lost.
 ### nodeZoom (integer)
 
 Max level to be applied by clicking a node or opening a node. Value `18` is a good default, so nearby buildings and streets should be visible.
+
+{% sample lang="json" %}
+```json
+"nodeZoom": 18
+```
 {% endmethod %}
 
 
 {% method %}
 ### labelZoom (integer)
 
-Min. level for node labels shown on the map. Labels aren't shown in first zoom levels and need performance.
+Min. level for node labels shown on the map. Labels aren't shown in first zoom levels and every possible level labelZoom to maxZoom needs performance.
+
+{% sample lang="json" %}
+```json
+"labelZoom": 13
+```
 {% endmethod %}
 
 
@@ -72,19 +87,36 @@ Min. level for node labels shown on the map. Labels aren't shown in first zoom l
 ### clientZoom (integer)
 
 Min. level to set starting layer for client dots on map.
+
+{% sample lang="json" %}
+```json
+"clientZoom": 15
+```
 {% endmethod %}
 
 
-{% method %}
 ### nodeInfobox
 
+{% method %}
 #### contact (bool, optional)
 
 Setting this to `false` will hide contact information for nodes.
 
+{% sample lang="json" %}
+```json
+"contact": false
+```
+{% endmethod %}
+
+{% method %}
 #### hardwareUsage (bool, optional)
 
 Setting this to `false` will hide bars of memory usage and load avg for nodes.
+
+{% sample lang="json" %}
+```json
+"hardwareUsage": true
+```
 {% endmethod %}
 
 
@@ -293,5 +325,5 @@ Example for `supportedLocale`:
 
 Will be replaced in every build to avoid missing or outdated language strings, because language.json isn't up to date.
 
-_Fixed value (y0z)._
+_Fixed value (vy0zx)._
 {% endmethod %}

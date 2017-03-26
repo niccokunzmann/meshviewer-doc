@@ -2,16 +2,18 @@
 
 ## Dependencies
 
-- yarn (npm fallback)
-- grunt-cli
+* yarn \(npm fallback\)
+* gulp-cli
 
 ### Installing dependencies
 
-_npm is still possible to use, but yarn is much faster https://yarnpkg.com/_
+_npm is still possible to use, but yarn is much faster _[https://yarnpkg.com/](https://yarnpkg.com/)
 
 Install yarn package-manager:
 
-    Choose your OS and install yarn https://yarnpkg.com/en/docs/install
+```
+Choose your OS and install yarn https://yarnpkg.com/en/docs/install
+```
 
 Execute these commands on your server as a normal user to prepare the dependencies:
 
@@ -19,8 +21,8 @@ Execute these commands on your server as a normal user to prepare the dependenci
 git clone https://github.com/ffrgb/meshviewer.git
 cd meshviewer
 yarn
-# Only needed if no global grunt is installed
-yarn global add grunt-cli
+# Only needed if no global gulp is installed / OS like arch provides a package
+yarn global add gulp-cli
 ```
 
 ## Adjsut config and style
@@ -33,7 +35,8 @@ yarn global add grunt-cli
 Just run the following command from the meshviewer directory:
 
 ```bash
-grunt
+gulp
 ```
 
 This will generate the folder `build/` that will contain all required files.
+

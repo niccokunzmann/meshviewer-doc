@@ -17,7 +17,7 @@ You might need to rebase the debug branch to have your settings.
 
 ### Browsersync
 
-We use Browsersync for local development and `grunt serve` will show a second port with Browsersync settings and tools. It includes winere, a remote inspection tool and allows to sync tabs. The web-interface can often be found under port 3001.
+We use Browsersync for local development and gug`gulp serve` will show a second port with Browsersync settings and tools. It includes winere, a remote inspection tool and allows to sync tabs. The web-interface can often be found under port 3001.
 
 ### Javascript console
 

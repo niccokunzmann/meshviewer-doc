@@ -25,10 +25,11 @@ yarn
 yarn global add gulp-cli
 ```
 
-## Adjsut config and style
+## Adjust config and style
 
 1. [Change configuration to your community](/config_json.md)
-2. Edit files in `scss/custom/`. Additional information in file comments and under [development](/development.md).
+2. \(optional\) Edit files in `scss/custom/`. Additional information in file comments and under [development](/development.md).
+3. \(optional\) Change logo svg and generate new icons or adjaust the images yourself.
 
 ## Building
 

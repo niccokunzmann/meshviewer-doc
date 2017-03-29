@@ -8,6 +8,7 @@
   * [Map layers](build_install/map-layers.md)
 * [Development](development.md)
 * [Debug](debug.md)
+* [Supported backends](supported-backends.md)
 
 ## Configuration
 

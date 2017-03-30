@@ -2,9 +2,9 @@
 
 Gulp merges config.json into config.default.json (config.default.json will be overwriten). **This is no deep merge**, you need to configure **complete** array or object like `nodeInfobox` or `supportedLocale`. 
 
-> config.default.json contains settings like `supportedLocale` or `maxAge`
+> **config.default.json** contains settings like `supportedLocale` or `maxAge`
 
-> config.json contains communiy specific settings like stat images or `siteName` (and your overwrites)
+> **config.json** contains communiy specific settings like stat images or `siteName` (and your overwrites)
 
 {% method %}
 ### dataPath (string/array)

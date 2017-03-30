@@ -4,8 +4,6 @@ Gulp merges config.json into config.default.json (config.default.json will be ov
 
 > config.default.json contains settings like `supportedLocale` or `maxAge`
 
-<br>
-
 > config.json contains communiy specific settings like stat images or `siteName` (and your overwrites)
 
 {% method %}

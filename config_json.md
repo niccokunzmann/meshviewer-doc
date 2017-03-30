@@ -1,5 +1,13 @@
 # Configuration
 
+Gulp merges config.json into config.default.json (config.default.json will be overwriten). **This is no deep merge**, you need to configure **complete** array or object like `nodeInfobox` or `supportedLocale`. 
+
+> config.default.json contains settings like `supportedLocale` or `maxAge`
+
+<br>
+
+> config.json contains communiy specific settings like stat images or `siteName` (and your overwrites)
+
 {% method %}
 ### dataPath (string/array)
 `dataPath` can be either a string containing the address of a Nodes.json v2 compatible backend (e.g. ffmap backend) or an array containing multiple addresses.
@@ -10,12 +18,12 @@ It may help with firewall problems too.
 {% sample lang="json" %}
 Sinple data source
 ```json
-dataPath : "https://regensburg.freifunk.net/data/"
+"dataPath" : "https://regensburg.freifunk.net/data/"
 ```
 
 Multiple data sources
 ```json
-dataPath : [
+"dataPath" : [
     "https://regensburg.freifunk.net/data/", 
     "https://nominatim.openstreetmap.org/reverse"
 ]

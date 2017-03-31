@@ -4,10 +4,9 @@
 
 We support Yanic developed from Freifunk Bremen. Cooperation between multiple communites allows us to enhance the meshviewer with new and optimize current information.
 
-Github: [https://github.com/FreifunkBremen/yanic](https://github.com/FreifunkBremen/yanic)  
+Github: [https://github.com/FreifunkBremen/yanic](https://github.com/FreifunkBremen/yanic)
 
-
----
+# Not supported Backends
 
 ### ffmap-backend
 
@@ -17,7 +16,7 @@ Github: [https://github.com/ffnord/ffmap-backend](https://github.com/ffnord/ffma
 
 ---
 
-### Hopglass-server
+### Hopglass-Server
 
 Hopglass-server has its own frontend call hopglass. We don't test with hopglass and have no offical support for it.
 

@@ -4,7 +4,7 @@
 
 A web-app to visualize nodes and links on a map for Freifunk open mesh network.
 
-![Meshviewer Logo](/assets/logo.svg)
+<img alt="Meshviewer Logo" src="/assets/logo.svg" align=right width=320 />
 
 ## Demo
 

@@ -16,6 +16,8 @@ Standalone: [https://regensburg.freifunk.net/meshviewer/](https://regensburg.fre
 | Community | Instance | Repo GitHub |
 | --- | --- | --- |
 | Freifunk Bremen | [https://map.bremen.freifunk.net/](https://map.bremen.freifunk.net/) | [FreifunkBremen/meshviewer-ffrgb](https://github.com/FreifunkBremen/meshviewer-ffrgb) |
+| Freifunk Hochstift | https://map.hochstift.freifunk.net/ |  |
+| Freifunk in Mainz, Wiesbaden & Umgebung | https://mapng.freifunk-mwu.de |  |
 
 
 

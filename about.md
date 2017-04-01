@@ -1,9 +1,5 @@
 # About
 
-## Goals
-
-The main goal is still to be meshviewer for [Freifunk Regensburg](https://regensburg.freifunk.net/) and provide best possible performance and userability. We use [Yanic backend](https://github.com/FreifunkBremen/yanic) in future for meshviewer data.
-
 ## Support/Help
 
 * IRC on irc.hackint.org

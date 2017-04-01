@@ -3,7 +3,7 @@
 
 ---
 
-A web-app to visualize nodes and links on a map for Freifunk open mesh network.
+Meshviewer is an online visualizaiton app to represent nodes and links on a map for Freifunk open mesh network.
 
 ![Meshviewer Logo](/assets/logo.svg)
 

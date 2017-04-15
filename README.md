@@ -30,6 +30,11 @@ Standalone: [https://regensburg.freifunk.net/meshviewer/](https://regensburg.fre
 | Freifunk Hochstift | [https://map.hochstift.freifunk.net/](https://map.hochstift.freifunk.net/) | &nbsp; |
 | Freifunk in Mainz, Wiesbaden & Umgebung | [https://mapng.freifunk-mwu.de/](https://mapng.freifunk-mwu.de/) | &nbsp; |
 | Freifunk Westpfalz | https://map.freifunk-westpfalz.de/ | &nbsp; |
+| Freifunk Gera-Greiz | https://www.freifunk-gera-greiz.de/meshviewer/ | &nbsp; |
+| Freifunk Hannover | https://hannover.freifunk.net/karte/ | &nbsp; |
+
+
+
 
 
 

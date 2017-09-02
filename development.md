@@ -1,6 +1,6 @@
 # Development
 
-Use gu`ulp serve` for development and reload on JS changes and injection for style.
+Use `gulp serve` for development and reload on JS changes and injection for style.
 
 ## JavaScript
 

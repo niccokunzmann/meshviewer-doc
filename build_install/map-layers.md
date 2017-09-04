@@ -22,9 +22,9 @@ Ask us friendly and you can use our layers. Compared to Standard OSM our tiles a
       // Please ask Freifunk Regensburg before using its tile server - example with retina tiles
       "url": "https://{s}.tiles.ffrgb.net/{z}/{x}/{y}{retina}.png",
       "config": {
-        "maxZoom": 22,
+        "maxZoom": 20,
         "subdomains": "1234",
-        "attribution": "<a href=\'https://www.mapbox.com/about/maps/\' target=\'_blank\'>&copy; Mapbox</a> <a href=\'https://openstreetmap.org/about/\' target=\'_blank\'>&copy; OpenStreetMap</a> <a class=\'mapbox-improve-map\' href=\'https://www.mapbox.com/map-feedback/\' target=\'_blank\'>Improve this map</a>",
+        "attribution": "<a href=\"http://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"http://www.openstreetmap.org/about/\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
         "start": 6
       }
     },
@@ -40,9 +40,9 @@ Ask us friendly and you can use our layers. Compared to Standard OSM our tiles a
       // Please ask Freifunk Regensburg before using its tile server - example with retina and dark tiles
       "url": "https://{s}.tiles.ffrgb.net/n/{z}/{x}/{y}{retina}.png",
       "config": {
-        "maxZoom": 22,
+        "maxZoom": 20,
         "subdomains": "1234",
-        "attribution": "<a href=\'https://www.mapbox.com/about/maps/\' target=\'_blank\'>&copy; Mapbox</a> <a href=\'https://openstreetmap.org/about/\' target=\'_blank\'>&copy; OpenStreetMap</a> <a class=\'mapbox-improve-map\' href=\'https://www.mapbox.com/map-feedback/\' target=\'_blank\'>Improve this map</a>",
+        "attribution": "<a href=\"http://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"http://www.openstreetmap.org/about/\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
         "mode": "night",
         "start": 19,
         "end": 

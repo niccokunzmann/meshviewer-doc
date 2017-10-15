@@ -10,7 +10,7 @@
 * [Debug](debug.md)
 * [Supported backends](supported-backends.md)
 * [Release process](release-process.md)
-* Changelog
+* [Changelog](changelog.md)
 
 ## Configuration
 

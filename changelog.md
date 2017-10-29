@@ -1,8 +1,6 @@
 # Changelog
 
 ## 10.0.0 [not relased yet]
-#### Main differences to https://github.com/ffnord/meshviewer
-_Some similar features might have been implemented/merged.._
 
 - Replaced router - including language, mode, node, link, location
 - Leaflet upgraded to v1 - faster on mobile
@@ -28,4 +26,7 @@ _Some similar features might have been implemented/merged.._
 - Cross browser/device support improved (THX@BrowserStack)
 - Yarn package manager in favour of npm (npm still works)
 - Configurable reverse geocoding server
+- Split clients into 2,4, 5Ghz and others
+- Show nexthop and gateways (IPv4/IPv8)
+- **Switch to meshviewer.json - less depth, new informations**
 - [A lot more in the commit history](https://github.com/ffrgb/meshviewer/commits/develop)

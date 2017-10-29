@@ -8,8 +8,9 @@
 <img src="https://img.shields.io/scrutinizer/g/ffrgb/meshviewer/develop.svg?style=flat-square" />
 </a>
 <a href="https://www.gnu.org/licenses/agpl-3.0">
-<img src="https://img.shields.io/badge/License-AGPL v3-blue.svg?style=flat-square" />
-</a><br><br>
+<img src="https://img.shields.io/github/license/ffrgb/meshviewer.svg?style=flat-square" />
+</a>
+<br><br>
 Meshviewer is an online visualizaiton app to represent nodes and links on a map for Freifunk open mesh network.<br><br>
 <img src="/assets/logo.svg">
 </p>

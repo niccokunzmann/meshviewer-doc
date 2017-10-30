@@ -14,7 +14,7 @@ Also, proxying the data through a webserver will allow brotli or deflat/gzip and
 It may help with firewall problems too.
 
 {% sample lang="json" %}
-Sinple data source
+Simple data source
 ```json
 "dataPath" : "https://regensburg.freifunk.net/data/"
 ```
@@ -136,7 +136,7 @@ A list of objects describing map layers. Each object has at least `name`, `url` 
 {% method %}
 #### mode (string, optional)
 
-Allows to load a additional style for a night mode or similar use case. Possible are inline style or link. 
+Allows to load an additional style for a night mode or a similar use case. Possible are inline style or link. 
 Inline avoids re-rendering and maybe issues with label-layer update. Important are class "css-mode mode-name" and media "not".
 
 _Default is night.css inline in index.html_

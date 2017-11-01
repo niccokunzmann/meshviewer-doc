@@ -8,22 +8,22 @@ Gulp merges config.json into config.default.json (config.default.json will be ov
 
 {% method %}
 ### dataPath (string/array)
-`dataPath` can be either a string containing the address of a Nodes.json v2 compatible backend (e.g. ffmap backend) or an array containing multiple addresses.
-Don't forget the trailing slash!
-Also, proxying the data through a webserver will allow brotli or deflat/gzip and thus will greatly reduce bandwidth consumption.
-It may help with firewall problems too.
+`dataPath` needs a path/URL with meshviewer.json provided in an array. Don't forget the trailing slash!
+Also, proxying the data through a webserver will allow brotli or deflat/gzip and thus will greatly reduce bandwidth consumption. `Access-Control-Allow-Origin: "*"` header should be added to allow local development.
 
 {% sample lang="json" %}
-Simple data source
+Single data source
 ```json
-"dataPath" : "https://regensburg.freifunk.net/data/"
+"dataPath" : [
+    "https://regensburg.freifunk.net/data/"
+]
 ```
 
 Multiple data sources
 ```json
 "dataPath" : [
     "https://regensburg.freifunk.net/data/", 
-    "https://nominatim.openstreetmap.org/reverse"
+    "https://bremen.freifunk.net/data/"
 ]
 ```
 {% endmethod %}

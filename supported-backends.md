@@ -18,7 +18,7 @@ Github: [https://github.com/ffnord/ffmap-backend](https://github.com/ffnord/ffma
 
 ### Hopglass-Server
 
-Hopglass-server has its own frontend call hopglass. We don't test with hopglass and have no offical support for it.
+Hopglass-server has its own frontend called hopglass.
 
 Github: [https://github.com/hopglass/hopglass-server](https://github.com/hopglass/hopglass-server)
 

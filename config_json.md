@@ -100,32 +100,79 @@ Min. level to set starting layer for client dots on map.
 ```
 {% endmethod %}
 
-
-### nodeInfobox
-
 {% method %}
-#### contact (bool, optional)
+### nodeAttr (array)
 
-Setting this to `false` will hide contact information for nodes.
+Remove or add node properties in detail view. Support `show` function in `utils/node` or properties from node (1 depth only)
 
 {% sample lang="json" %}
 ```json
-"contact": false
+"nodeAttr": [
+    // value can be a node attribute (1 depth) or a a function in utils/node with prefix show
+    {
+      "name": "node.status",
+      "value": "Status"
+    },
+    {
+      "name": "node.gateway",
+      "value": "Gateway"
+    },
+    {
+      "name": "node.coordinates",
+      "value": "GeoURI"
+    },
+// Remove unwanted attributes    
+//    {
+//      "name": "node.contact",
+//      "value": "owner"
+//    },
+    {
+      "name": "node.hardware",
+      "value": "model"
+    },
+    {
+      "name": "node.primaryMac",
+      "value": "mac"
+    },
+    {
+      "name": "node.firmware",
+      "value": "Firmware"
+    },
+    {
+      "name": "node.uptime",
+      "value": "Uptime"
+    },
+    {
+      "name": "node.firstSeen",
+      "value": "FirstSeen"
+    },
+    {
+      "name": "node.systemLoad",
+      "value": "Load"
+    },
+    {
+      "name": "node.ram",
+      "value": "RAM"
+    },
+    {
+      "name": "node.ipAddresses",
+      "value": "IPs"
+    },
+    {
+      "name": "node.update",
+      "value": "Autoupdate"
+    },
+    {
+      "name": "node.site",
+      "value": "Site"
+    },
+    {
+      "name": "node.clients",
+      "value": "Clients"
+    }
+  ],
 ```
 {% endmethod %}
-
-
-{% method %}
-#### hardwareUsage (bool, optional)
-
-Setting this to `false` will hide bars of memory usage and load avg for nodes.
-
-{% sample lang="json" %}
-```json
-"hardwareUsage": true
-```
-{% endmethod %}
-
 
 ### mapLayers (List)
 
@@ -351,6 +398,15 @@ Example for `supportedLocale`:
 
 
 {% method %}
+
+### color (array)
+Different color settings for all canvas (in code colors) available
+
+{% endmethod %}
+
+
+{% method %}
+
 ### cacheBreaker (string)
 
 Will be replaced in every build to avoid missing or outdated language strings, because language.json isn't up to date.

@@ -28,6 +28,8 @@
 * Configurable reverse geocoding server
 * Split clients into 2,4, 5Ghz and others
 * Show nexthop and gateways \(IPv4/IPv6\)
+* Dynamic node detail attributes
+* Config inheritance
 * **Switch to meshviewer.json - less depth, new informations**
 * [A lot more in the commit history](https://github.com/ffrgb/meshviewer/commits/develop)
 

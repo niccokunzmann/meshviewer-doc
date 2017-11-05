@@ -7,7 +7,7 @@
 
 ### Installing dependencies
 
-_npm is still possible to use, but yarn is much faster _[https://yarnpkg.com/](https://yarnpkg.com/)
+_npm is still possible to use, but no support _[https://yarnpkg.com/](https://yarnpkg.com/)
 
 Install yarn package-manager:
 
@@ -40,4 +40,3 @@ gulp
 ```
 
 This will generate the folder `build/` that will contain all required files.
-

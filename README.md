@@ -33,6 +33,7 @@ Standalone: [https://regensburg.freifunk.net/meshviewer/](https://regensburg.fre
 | Freifunk Westpfalz | https://map.freifunk-westpfalz.de/ | &nbsp; |
 | Freifunk Gera-Greiz | https://www.freifunk-gera-greiz.de/meshviewer/ | &nbsp; |
 | Freifunk Hannover | https://hannover.freifunk.net/karte/ | &nbsp; |
+| Freifunk Darmstadt | https://meshviewer.darmstadt.freifunk.net/ | &nbsp; |
 
 
 

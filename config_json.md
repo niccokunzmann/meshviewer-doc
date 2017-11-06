@@ -305,7 +305,10 @@ This option allows to show global statistics on statistics page depending on fol
   can be the same like `href`
 - `title` for the image
 
-In contrast to `nodeInfos` there is no template substitution in  `href`, `image` or `title`.
+To insert locale or cache-breaker variable in either `href`, `image` or `title`
+you can use the case-sensitive template strings `{LOCALE}` and `{TIME}` as cache-breaker.
+
+
 
 {% sample lang="json" %}
 Examples for `globalInfos` using Grafana server rendering:

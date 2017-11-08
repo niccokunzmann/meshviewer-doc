@@ -17,6 +17,5 @@
 
 ### Release
   - Tag release
-  - Write Changelog
+  - Write [Changelog](/changelog.md)
   - Try to provide Builds
-  - Also provide a deug release/rebase

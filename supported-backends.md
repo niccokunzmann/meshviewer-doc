@@ -6,9 +6,9 @@ We support Yanic developed from Freifunk Bremen. Cooperation between multiple co
 
 Github: [https://github.com/FreifunkBremen/yanic](https://github.com/FreifunkBremen/yanic)
 
-# Not supported Backends
+# Unsupported Backends
 
-### ffmap-backend
+#### ffmap-backend
 
 Our original base supports ffmap-backend with nodes.json v2. Ffmap-backend uses not maintained alfred.
 
@@ -16,7 +16,7 @@ Github: [https://github.com/ffnord/ffmap-backend](https://github.com/ffnord/ffma
 
 ---
 
-### Hopglass-Server
+#### Hopglass-Server
 
 Hopglass-server has its own frontend called hopglass.
 

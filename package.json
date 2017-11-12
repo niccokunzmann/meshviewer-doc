@@ -1,0 +1,11 @@
+{
+  "name": "meshviewer-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://git.gitbook.com/meshviewer/documentation.git",
+  "author": "Xaver Maierhofer <xaver.maierhofer@xwissen.info>",
+  "license": "MIT",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

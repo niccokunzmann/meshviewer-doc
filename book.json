@@ -1,22 +1,23 @@
 {
-    "plugins": [ 
-        "theme-api", 
-        "anchors",
-        "sitemap"
-    ],
-    "pluginsConfig": {
-        "theme-api": {
-          "split": true,
-            "languages": [
-                {
-                    "lang": "json",
-                    "name": "JSON",
-                    "default": true
-                }
-            ]
-        },
-        "sitemap": {
-            "hostname": "https://meshviewer.gitbooks.io"
+  "plugins": [
+    "theme-api",
+    "anchors",
+    "sitemap",
+    "-sharing"
+  ],
+  "pluginsConfig": {
+    "theme-api": {
+      "split": true,
+      "languages": [
+        {
+          "lang": "json",
+          "name": "JSON",
+          "default": true
         }
+      ]
+    },
+    "sitemap": {
+      "hostname": "https://meshviewer.gitbooks.io"
     }
+  }
 }

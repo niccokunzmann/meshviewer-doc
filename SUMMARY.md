@@ -15,3 +15,8 @@
 ## Configuration
 * [config.json](config_json.md)
 
+## Downloads
+* [PDF](https://doc.meshviewer.org/meshviewer.pdf)
+* [ePub](https://doc.meshviewer.org/meshviewer.epub)
+* [Mobi](https://doc.meshviewer.org/meshviewer.mobi)
+

@@ -16,7 +16,7 @@
 * Icon font with needed icons only
 * Switch to Gulp \(Tested with Node.js 6 LTS, 8 on Linux, OSX & W\*\*\)
   * css and some js moved inline
-* Yarn/npm in favour of bower
+* Yarn in favour of bower
   * Load only moment.js without languages \(Languages are included in translations\)
   * unneeded components removed \(es6-shim, tablesort, numeraljs, leaflet-providers, leaflet-label jshashes, chroma-js\)
 * RBush v2 - performance boost in last versions \(positions, labels and clients on the map\)
@@ -24,7 +24,7 @@
 * FixedCenter is required
 * Sass-lint, scss and variables rewritten for easy customizations/adjustments
 * Cross browser/device support improved \(THX@BrowserStack\)
-* Yarn package manager in favour of npm \(npm still works\)
+* Yarn package manager in favour of npm
 * Configurable reverse geocoding server
 * Split clients into 2,4, 5Ghz and others
 * Show nexthop and gateways \(IPv4/IPv6\)

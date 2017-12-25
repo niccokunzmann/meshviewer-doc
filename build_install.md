@@ -2,12 +2,10 @@
 
 ## Dependencies
 
-* yarn \(npm fallback\)
+* yarn [https://yarnpkg.com/](https://yarnpkg.com/)
 * gulp-cli
 
 ### Installing dependencies
-
-_npm is still possible to use, but no support _[https://yarnpkg.com/](https://yarnpkg.com/)
 
 Install yarn package-manager:
 

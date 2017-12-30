@@ -15,8 +15,8 @@ Ask us friendly and you can use our layers. Compared to Standard OSM our tiles a
 | Retina tiles | yes |
 | Tracking | no |
 
-{% sample lang="json" %}
-```json
+{% sample lang="js" %}
+```js
   {
       "name": "Freifunk Regensburg",
       // Please ask Freifunk Regensburg before using its tile server - example with retina tiles
@@ -32,7 +32,7 @@ Ask us friendly and you can use our layers. Compared to Standard OSM our tiles a
 
 #### Night style
 
-{% sample lang="json" %}
+{% sample lang="js" %}
 ```json
 
     {

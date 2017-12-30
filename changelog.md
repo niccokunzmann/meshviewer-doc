@@ -30,6 +30,7 @@
 * Show nexthop and gateways \(IPv4/IPv6\)
 * Dynamic node detail attributes
 * Config inheritance and functions
+* Dynamic map center (sidebar toggle)
 * **Switch to meshviewer.json - less depth, new informations**
 * [A lot more in the commit history](https://github.com/ffrgb/meshviewer/commits/develop)
 

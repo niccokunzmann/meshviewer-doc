@@ -13,7 +13,7 @@
 * [Changelog](changelog.md)
 
 ## Configuration
-* [config.json](config_json.md)
+* [config.js](config_js.md)
 
 ## Downloads
 * [PDF](https://doc.meshviewer.org/meshviewer.pdf)

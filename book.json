@@ -10,8 +10,8 @@
       "split": true,
       "languages": [
         {
-          "lang": "json",
-          "name": "JSON",
+          "lang": "js",
+          "name": "JS",
           "default": true
         }
       ]

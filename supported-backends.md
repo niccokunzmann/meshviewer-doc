@@ -10,7 +10,7 @@ Github: [https://github.com/FreifunkBremen/yanic](https://github.com/FreifunkBre
 
 #### ffmap-backend
 
-Our original base supports ffmap-backend with nodes.json v2. Ffmap-backend uses not maintained alfred.
+Our original base supports ffmap-backend with nodes.json v2. Ffmap-backend is not maintained according to ffnord github.
 
 Github: [https://github.com/ffnord/ffmap-backend](https://github.com/ffnord/ffmap-backend)
 

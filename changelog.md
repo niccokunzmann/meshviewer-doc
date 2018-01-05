@@ -1,7 +1,8 @@
 # Changelog
 
-## 10.0.0 \[not released yet\]
+## 10.0.0
 
+* Performance improvements (critical path, avoid blocking code)
 * Replaced router - including language, mode, node, link, location
 * Leaflet upgraded to v1 - faster on mobile
 * Forcegraph rewrite with d3.js v4
@@ -10,8 +11,8 @@
 * Node filter
 * Zoom level for clicking on a node \(`nodeZoom`\) is definable independently from the maximum zoom level 22
 * Formatted Code
-* Translation support - [https://crowdin.com/project/meshviewer](https://crowdin.com/project/meshviewer) - Contact us for new languages
-  * Currently available: en, de, fr & ru
+* Translation support - Help to improve or add languages at [Online translation platform](https://poeditor.com/join/project/VZBjPNNic9)
+  * Currently available: en, de, fr, cz, tk & ru
 * Gulp inline for some css and js - fewer requests and instant load indicator
 * Icon font with needed icons only
 * Switch to Gulp \(Tested with Node.js 6 LTS, 8 on Linux, OSX & W\*\*\)
@@ -31,6 +32,10 @@
 * Dynamic node detail attributes
 * Config inheritance and functions
 * Dynamic map center (sidebar toggle)
+* Show connection type (icon)
+^ Accessibility improvements
+* Few Internet Explorer 11 fixes
+* Necessary polyfills - no overhead
 * **Switch to meshviewer.json - less depth, new informations**
 * [A lot more in the commit history](https://github.com/ffrgb/meshviewer/commits/develop)
 

@@ -34,3 +34,4 @@ Standalone: [https://regensburg.freifunk.net/meshviewer/](https://regensburg.fre
 | Freifunk Gera-Greiz | https://www.freifunk-gera-greiz.de/meshviewer/ | &nbsp; |
 | Freifunk Hannover | https://hannover.freifunk.net/karte/ | &nbsp; |
 | Freifunk Darmstadt | https://meshviewer.darmstadt.freifunk.net/ | &nbsp; |
+| Freifunk Erfurt | http://map.erfurt.freifunk.net/meshviewer/ | &nbsp; |
